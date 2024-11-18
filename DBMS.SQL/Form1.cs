@@ -15,7 +15,7 @@ namespace DBMS.SQL
         SqlCommand cmd;
         SqlDataAdapter da;
 
-        //method สำหรับเชื่อมต่อ
+        //method สำหรับเชื่อมต่อ และปิดการเชื่อมต่อฐานข้อมูล SQL SERVER
         private void connect()
         {
             string server = @"LAPTOP-5N08LR59\SQLEXPRESS";
